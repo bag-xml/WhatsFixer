@@ -6,8 +6,11 @@ WhatsFixer, created by bag.xml
 
 
 %hook WAExpiredBuildNotificationViewController
-- (void)viewDidLoad {
+-(instancetype)init {
+ Class WAWelcomeViewControllerClass = objc_getClass("WAWelcomeViewController");
+ return [[WAWelcomeViewControllerClass alloc]init];
 }
+
 %end
 
 %hook NSURLConnection
