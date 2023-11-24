@@ -1,0 +1,10 @@
+Package: com.bagxml.whatsfixer
+Name: WhatsFixer
+Description: An awesome MobileSubstrate tweak!
+Maintainer: bag.xml
+Author: bag.xml
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Version: 0.0.1-1+debug
+Installed-Size: 136
