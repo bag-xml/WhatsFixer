@@ -1,2 +1,2 @@
 # WhatsFixer
- A MobileSubstrate tweak that fixes WhatsApp Version 2.16.20
+i just began this project. nothing is here yet but this gives you the honors of following its development ^o^
