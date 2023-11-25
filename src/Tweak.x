@@ -8,12 +8,14 @@ WhatsFixer, created by bag.xml
 %hook WAExpiredBuildNotificationViewController
 
 - (int)daysToExpiration {
+    %orig;
     return 1410065407;
 }
 
-- (void) openAppStore {
-
+- (void)openAppStore {
+    %orig;
 }
+
 %end
 
 %hook NSURLConnection
