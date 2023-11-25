@@ -6,9 +6,9 @@ WhatsFixer, created by bag.xml
 
 
 %hook WAExpiredBuildNotificationViewController
--(instancetype)init {
- Class WAWelcomeViewControllerClass = objc_getClass("WAWelcomeViewController");
- return [[WAWelcomeViewControllerClass alloc]init];
+
+-(int)daysToExpiration {
+    return 1410065407;
 }
 
 %end
