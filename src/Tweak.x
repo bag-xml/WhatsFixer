@@ -12,8 +12,8 @@ WhatsFixer, created by bag.xml
     return 1410065407;
 }
 
+%new(v@:)
 - (void)openAppStore {
-    %orig;
 }
 
 %end
